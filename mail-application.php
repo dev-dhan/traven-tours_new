@@ -48,7 +48,7 @@ $headers .= "Reply-To: $email\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: multipart/mixed; boundary=$boundary\r\n";
 
-$subject = "Talent Us - Job Application";
+$subject = "See and Explore Travel and Tours - Travel Booking";
 
 $body = "--$boundary\r\n";
 $body .= "Content-Type: $type; name=\"$name\"\r\n";

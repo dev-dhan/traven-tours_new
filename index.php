@@ -306,29 +306,36 @@ include("include/head.inc.php");
   </main>
 
 
-  <!-- <section class="banner">
+  <section class="banner">
 
-    <div class="banner-container">
-      <h1 class="banner-heading">Got A Question? We Would Be Happy To Help!</h1>
-      
-      <div class="banner-btn-con">
-    <a href="jobpost.php" class="btn has-before btn-banner">
-        <span class="span">View More</span>
-        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
+      <div class="banner-container">
+        <h1 class="banner-heading">Got A Question? We Would Be Happy To Help!</h1>
+        
+        <div class="banner-btn-con">
+      <a href="jobpost.php" class="btn has-before btn-banner" data-toggle="modal" data-target="#exampleModal">
+          <span class="span">Terms And Condition</span>
+          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
 
-      <a href="jobpost.php" class="btn has-before btn-banner">
-        <span class="span">View More</span>
-        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
-    </div>
-    </div>
+        <a href="jobpost.php" class="btn has-before btn-banner" data-toggle="modal" data-target="#exampleModal2">
+          <span class="span">FAQS</span>
+          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+      </div>
+      </div>
 
-   
+      <!-- Terms And Condition Modal -->
+      <?php 
+        include("components/termsAndCondition.php");
+      ?>
 
+      <!-- FAQS -->
+      <?php 
+        include("components/faqs.php");
+      ?>
     
 
-  </section> -->
+  </section> 
 
   
 
