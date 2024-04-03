@@ -305,7 +305,7 @@ main {
                     </div>
                 </div>
 
-                <a href="application-page.php">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScN1s_EssPS6nZD2QVGtvkiAdTZhDNYBkfa4Iw8lHBK1_l8yg/viewform" target="_blank">
                 <button class="bookButton">BOOK NOW</button>
 
                 </a>
