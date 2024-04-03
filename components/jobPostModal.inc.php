@@ -51,7 +51,7 @@
             <div class="modal-footer">
                 <input type="hidden" id="jobPost_id" class="form-control" required>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a href="#" type="button" class="btn btn-primary" id="applyBtn">Book Now</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScN1s_EssPS6nZD2QVGtvkiAdTZhDNYBkfa4Iw8lHBK1_l8yg/viewform" type="button" class="btn btn-primary" target="_blank">Book Now</a>
             </div>
         </div>
     </div>

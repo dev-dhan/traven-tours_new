@@ -76,7 +76,57 @@ include("include/head.inc.php");
       ?>
 
 
- <!-- 
+    <!-- 
+        - #PROMO
+      -->
+
+      <section class="section blog has-bg-image" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Our Latest Promos</p>
+
+          <h2 class="h2 section-title">Recent and Incoming Promos</h2>
+
+          <?php
+          include("recent-job.php");
+          ?>
+
+          <!-- <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
+            class="shape blog-shape"> -->
+
+        </div>
+        <a href="jobpostpage.php" class="btn has-before btn-news">
+          <span class="span">View More</span>
+
+          <i class="fa-solid fa-angles-right"></i>
+        </a>
+      </section>
+
+
+ 
+
+      <!-- 
+        - #PARTNERSHIP
+      -->
+      <?php 
+        include("components/partnership.php");
+      ?>
+
+      <!-- 
+        - #VIDEO
+      -->
+      <section class="video-section">
+        <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1jd9QJFFR1E?si=xI-LwsC_BIXa94E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #TESTIMONIAL
+      -->
+
+      <!-- 
         - #PACKAGE
       -->
 
@@ -249,58 +299,13 @@ include("include/head.inc.php");
       </section>
 
 
-
-      <!-- 
-        - #PARTNERSHIP
-      -->
-      <?php 
-        include("components/partnership.php");
-      ?>
-
-      <!-- 
-        - #VIDEO
-      -->
-      <section class="video-section">
-        <div class="video-container">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1jd9QJFFR1E?si=xI-LwsC_BIXa94E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </section>
-
-
-      <!-- 
-        - #TESTIMONIAL
-      -->
       
 
 
 
 
 
-      <!-- 
-        - #BLOG
-      -->
-
-      <section class="section blog has-bg-image" id="blog" aria-label="blog">
-        <div class="container">
-
-          <p class="section-subtitle">Our Latest Promos</p>
-
-          <h2 class="h2 section-title">Recent and Incoming Promos</h2>
-
-          <?php
-          include("recent-job.php");
-          ?>
-
-          <!-- <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
-            class="shape blog-shape"> -->
-
-        </div>
-        <a href="jobpostpage.php" class="btn has-before btn-news">
-          <span class="span">View More</span>
-
-          <i class="fa-solid fa-angles-right"></i>
-        </a>
-      </section>
+    
 
     </article>
   </main>
