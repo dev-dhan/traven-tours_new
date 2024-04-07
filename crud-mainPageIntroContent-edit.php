@@ -38,9 +38,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         move_uploaded_file($_FILES["mainImage"]["tmp_name"], $target_file);
 
-        $sql = "UPDATE `introduction_content` SET `main_image` = '$mainImage', `main_subheading` = '$mainSubheading', `main_heading` = '$mainHeading' , `main_text` = '$mainText' WHERE `id` = $id";
+        // $sql = "UPDATE `introduction_content` SET `main_image` = '$mainImage', `main_subheading` = '$mainSubheading', `main_heading` = '$mainHeading' , `main_text` = '$mainText' WHERE `id` = $id";
+        $stmt = $conn->prepare("UPDATE `introduction_content` SET `main_image` = ?, `main_subheading` = ?, `main_heading` =  ?, `main_text` = ? WHERE `id` = ?");
+        $stmt->bind_param("ssssi", $mainImage, $mainSubheading, $mainHeading, $mainText, $id);
 
-        if (mysqli_query($conn, $sql)) {
+
+        if ($stmt->execute()) {
             $response = [
                 'status' => 'ok',
                 'success' => true,
@@ -56,9 +59,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             print_r(json_encode($response));
         }
     } else {
-        $sql = "UPDATE `introduction_content` SET `main_subheading` = '$mainSubheading', `main_heading` = '$mainHeading' , `main_text` = '$mainText' WHERE `id` = $id";
+        // Prepare and bind SQL statement with parameter
+        $stmt = $conn->prepare("UPDATE `introduction_content` SET `main_subheading` = ?, `main_heading` =  ?, `main_text` = ? WHERE `id` = ?");
+        $stmt->bind_param("sssi", $mainSubheading, $mainHeading, $mainText, $id);
 
-        if (mysqli_query($conn, $sql)) {
+        // $sql = "UPDATE `introduction_content` SET `main_subheading` = '$mainSubheading', `main_heading` = '$mainHeading' , `main_text` = '$mainText' WHERE `id` = $id";
+
+        if ($stmt->execute()) {
             $response = [
                 'status' => 'ok',
                 'success' => true,
