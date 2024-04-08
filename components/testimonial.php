@@ -6,8 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
 
 }
 
@@ -68,9 +66,9 @@
 }
 
 .slider-wrapper .image-list .image-item {
-  width: 325px;
+  width: 580px;
   height: 400px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .container .slider-scrollbar {
@@ -120,6 +118,10 @@
   bottom: -10px;
 }
 
+.testimonial .section-title {
+  margin-bottom: 60px!important;
+}
+
 /* Styles for mobile and tablets */
 @media only screen and (max-width: 1023px) {
   .slider-wrapper .slide-button {
@@ -133,8 +135,8 @@
   }
 
   .slider-wrapper .image-list .image-item {
-    width: 280px;
-    height: 380px;
+    width: 450px;
+    height: 400px;
   }
 
   .slider-scrollbar .scrollbar-thumb {
@@ -153,12 +155,17 @@
               chevron_left
             </button>
             <ul class="image-list">
-              <img class="image-item" src="./assets/images/package_1.jpg" alt="img-1" />
-              <img class="image-item" src="./assets/images/package_2.jpg" alt="img-1" />
-              <img class="image-item" src="./assets/images/package_3.jpg" alt="img-1" />
-              <img class="image-item" src="./assets/images/package_1.jpg" alt="img-1" />
-              <img class="image-item" src="./assets/images/package_2.jpg" alt="img-1" />
-              <img class="image-item" src="./assets/images/package_3.jpg" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-1.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-2.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-3.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-4.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-5.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-6.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-7.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-8.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-9.png" alt="img-1" />
+              <img class="image-item" src="./assets/images/client-10.png" alt="img-1" />
+
 
             </ul>
             <button id="next-slide" class="slide-button material-symbols-rounded">

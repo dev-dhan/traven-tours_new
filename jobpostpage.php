@@ -48,7 +48,8 @@ include("include/head.inc.php")
 
           <p class="section-subtitle">Our Latest Promos</p>
 
-          <h2 class="h2 section-title">Recent and Incoming Promos</h2>
+          <h2 class="h2 section-title">Ongoing Promos 
+</h2>
 
           <?php include("jobPostPageContent.php"); ?>
 

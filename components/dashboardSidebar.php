@@ -38,9 +38,9 @@
                             <li class="sidebar-item">
                                 <a href="crud-team.php" class="sidebar-link">Our Team</a>
                             </li>
-                            <li class="sidebar-item">
+                            <!-- <li class="sidebar-item">
                                 <a href="crud-testimonial.php" class="sidebar-link">Testimonial</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
 

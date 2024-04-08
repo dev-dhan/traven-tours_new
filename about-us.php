@@ -15,11 +15,13 @@ include("include/head.inc.php");
   }
 
   .team-image img {
-    min-height: 220px;
+    min-height: 300px;
+    max-height: 300px;
     width: 100%;
     height: 100%;
     padding: 0;
     margin-bottom: 20px;
+    object-fit: cover;
   }
 
   .our-team {

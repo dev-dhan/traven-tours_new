@@ -40,7 +40,7 @@
                 </li>
 
                 <li class="navbar-item">
-                    <a href="travelPackages.php" class="navbar-link" data-nav-link>Travel Packages</a>
+                    <a href="travelPackagePage.php" class="navbar-link" data-nav-link>Travel Packages</a>
                 </li>
 
                 <li class="navbar-item">

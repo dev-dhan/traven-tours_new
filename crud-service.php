@@ -14,7 +14,8 @@ $username = $_SESSION['username'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TalentUs</title>
+    <link rel="shortcut icon" href="./assets/images/travel-logo.png">
+    <title>See and Explore</title>
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -220,7 +221,19 @@ $username = $_SESSION['username'];
 
 
         .side-nav {
-            background-color: #002C59;
+            background-color: #26b7d8;
+        }
+
+        a {
+            text-decoration: none!important;
+        }
+
+        a:hover {
+            color: #fff!important;
+        }
+
+        li {
+            list-style: none;
         }
     </style>
 

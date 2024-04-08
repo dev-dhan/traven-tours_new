@@ -215,7 +215,7 @@ body {
 
 .section-title {
   --color: var(--kappel);
-  text-align: center;
+  text-align: center!important;
 }
 
 .section-title .span {
@@ -592,7 +592,7 @@ text-decoration: none;}
 }
 
 .about :is(.section-subtitle, .section-title, .section-text) {
-  text-align: left;
+  text-align: center;
 }
 
 .about-item {
@@ -1086,6 +1086,10 @@ text-decoration: none;}
   margin-right: 30px;
 }
 
+.banner-message-con {
+  width: 70%;
+}
+
 
 
 
@@ -1447,7 +1451,7 @@ text-decoration: none;}
   }
 
   .hero .section-title,
-  .hero-text { text-align: left; 
+  .hero-text { text-align: left !important; 
   color: #fff;
 ;}
 
@@ -1985,3 +1989,6 @@ text-decoration: none;}
   }
 }
 
+.partnership h2 {
+  margin-bottom: 60px!important;
+}

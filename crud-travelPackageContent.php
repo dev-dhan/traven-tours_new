@@ -98,7 +98,7 @@ if (!isset($_SESSION['username'])) {
                                 <textarea class="form-control" id="travel_package_description_content" required></textarea>
                             </div>
                             <div class="form-group">
-                                <label>Package Contact Details</label>
+                                <label>Other Details</label>
                                 <input type="text" id="travel_package_contact_details" class="form-control" required>
                             </div>
                         </div>

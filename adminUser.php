@@ -34,7 +34,7 @@ if (!isset($_SESSION['username'])) {
                             <div class="col-6">
                                 <div class="p-3 m-1">
                                     <?php echo "<h4>Welcome Back, $username</h4>" ?>
-                                    <p class="mb-0">Admin Dashborad, TalentUs</p>
+                                    <p class="mb-0">Admin Dashborad, See and Explore</p>
                                 </div>
                             </div>
 

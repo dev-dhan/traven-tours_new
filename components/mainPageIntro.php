@@ -1,5 +1,11 @@
+<style>
+    .hero-content .sub-heading {
+        text-align: center;
+    }
+</style>
+
 <section class="section hero has-bg-image" id="home" aria-label="home"
-        style="background-image: url('./assets/images/new-hero-bg.svg')">
+        style="background-image: url('./assets/images/hero-main-img.png')">
     
     <div class="container">
 
@@ -13,7 +19,7 @@
             <p class="hero-text" id="main_text">
             Welcome to See and Explore  Travel & Tours, where the world becomes your playground and every journey is a story waiting to be told. </p>
 
-            <a href="#" class="btn has-before">
+            <a href="contact-us.php" class="btn has-before">
                 <span class="span">Contact Us</span>
 
                 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>

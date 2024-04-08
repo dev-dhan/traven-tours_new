@@ -46,7 +46,7 @@ $username = $_SESSION['username'];
         }
 
         a:hover {
-            color: #000!important;
+            color: #fff!important;
         }
 
         li {

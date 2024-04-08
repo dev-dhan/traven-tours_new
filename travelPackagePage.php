@@ -14,6 +14,15 @@ include ("include/head.inc.php")
         width: 400px;
         height: 400px;
     }
+
+    #blog {
+        
+        background-color: rgba(31, 190, 226, .1); 
+    }
+
+    .course {
+        background-color: transparent!important;
+    }
 </style>
 
 <body id="top" class="job-post-body">

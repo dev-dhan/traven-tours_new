@@ -53,7 +53,7 @@ include ("include/head.inc.php");
 
     h3 {
         font-weight: normal;
-        font-size: 12px;
+        font-size: 14px;
         text-align: justify;
         margin: 0;
     }
@@ -82,9 +82,10 @@ include ("include/head.inc.php");
 
     }
 
-    .bookContainer img {
+    .bookContainer .booknow-img {
         max-width: 554px;
         width: 100%;
+        min-height: 350px;
     }
 
     .bookDetails {
@@ -196,8 +197,6 @@ include ("include/head.inc.php");
     }
 
     .bookDescriptionContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         max-width: 868px;
         width: 100%;
     }
@@ -215,8 +214,9 @@ include ("include/head.inc.php");
         display: flex;
         flex-direction: column;
         gap: 14px;
-        width: 316px;
+        width: 100%;
     }
+
 
 
     /* Large Screen */
@@ -250,7 +250,7 @@ include ("include/head.inc.php");
 
         .column1 div,
         .column2 div {
-            width: 290px;
+            width: 100%;
         }
 
         main {
@@ -292,6 +292,12 @@ include ("include/head.inc.php");
         .column2 div {
             width: 100%;
         }
+
+        .bookContainer .booknow-img {
+        max-width: 554px;
+        width: 100%;
+        min-height: 250px;
+    }
     }
 </style>
 
@@ -306,7 +312,7 @@ include ("include/head.inc.php");
         <h1>4-Day Beaches & Waterfalls Budget Adventure Package to El Nido Palawan with Happiness Hostel</h1>
         <section class="bookContainer">
             <?php
-            echo "<img src='./uploads/$travel_package_image' alt='$travel_package_image' >";
+            echo "<img class='booknow-img' src='./uploads/$travel_package_image' alt='$travel_package_image' >";
             ?>
             <!-- <img src="./assets/images/package_1.jpg" alt=""> -->
             <div class="bookDetails">
@@ -359,7 +365,7 @@ include ("include/head.inc.php");
                     ?>
                 </div>
                 <div>
-                    <h2>Contact Details</h2>
+                    <h2>Other Details</h2>
                     <?php
                         echo "<h3>$travel_package_contact_details</h3>";
                     ?>

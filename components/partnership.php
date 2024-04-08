@@ -1,4 +1,7 @@
 <section class="partnership" aria-label="partnership">
+
+<h2 class="h2 section-title">Our Partnership
+</h2>
     <div class="our-clients">
         <ul id="partnership-content">
         </ul>
