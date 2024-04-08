@@ -55,7 +55,7 @@
                                 <a href="jobPosting.php" class="sidebar-link">Promos Posting</a>
                             </li>
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Post 2</a>
+                                <a href="crud-travelPackage.php" class="sidebar-link">Tour Package Posting</a>
                             </li>
                             <li class="sidebar-item">
                                 <a href="#" class="sidebar-link">Post 2</a>
