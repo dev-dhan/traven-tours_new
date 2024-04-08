@@ -1,131 +1,247 @@
-<div class="testimonials-section">
 
-    <!-- Section Header Starts -->
-    <header class="section-header">
-        <p class="section-subtitle">TESTIMONIAL</p>
 
-        <h2 class="h2 section-title testimonial-title">
-            <span class="testimonial-span">What's Our</span> Client Say About Us
-        </h2>
-        <p class="section-text testimonial-text">
-            At Talent Us Inc., we are more than just a recruitment agency – we are your dedicated partners in success.
-            Our mission is to empower job seekers and employers by providing exceptional, personalized, and innovative
-            recruitment solutions. Here's what sets us apart:
-        </p>
-    </header>
-    <!-- Section Header Ends -->
+  <style>
 
-    <!-- Owl Carousel Slider Starts -->
-    <div class="owl-carousel owl-theme testimonials-container" id="testimonial-content">
-        <!-- Item1 Starts -->
-        <div class="item testimonial-card">
-            <main class="test-card-body">
-                <div class="quote">
-                    <i class="fa fa-quote-left"></i>
-                    <h2>title content</h2>
-                </div>
-                <p>description_content</p>
-            </main>
-            <div class="profile">
-                <div class="profile-desc">
-                    <span>name content</span>
-                    <span>job title content</span>
-                </div>
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper .slide-button {
+  position: absolute;
+  top: 50%;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  z-index: 5;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.2rem;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button:hover {
+  background: #404040;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+  left: -25px;
+  display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+  right: -25px;
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 18px;
+  font-size: 0;
+  list-style: none;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.container .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+  background: #ccc;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  position: relative;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  cursor: grab;
+  border-radius: inherit;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
+
+/* Styles for mobile and tablets */
+@media only screen and (max-width: 1023px) {
+  .slider-wrapper .slide-button {
+    display: none !important;
+  }
+
+  .slider-wrapper .image-list {
+    gap: 10px;
+    margin-bottom: 15px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .slider-wrapper .image-list .image-item {
+    width: 280px;
+    height: 380px;
+  }
+
+  .slider-scrollbar .scrollbar-thumb {
+    width: 20%;
+  }
+}
+  </style>
+  <section class="testimonial-container">
+      <p class="section-subtitle">TESTIMONIALS</p>
+      <h2 class="h2 section-title">Our Clients Experienced</h2>
+      </div>
+      <div class="slider-container">
+        <div class="container">
+          <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button material-symbols-rounded">
+              chevron_left
+            </button>
+            <ul class="image-list">
+              <img class="image-item" src="./assets/images/package_1.jpg" alt="img-1" />
+              <img class="image-item" src="./assets/images/package_2.jpg" alt="img-1" />
+              <img class="image-item" src="./assets/images/package_3.jpg" alt="img-1" />
+              <img class="image-item" src="./assets/images/package_1.jpg" alt="img-1" />
+              <img class="image-item" src="./assets/images/package_2.jpg" alt="img-1" />
+              <img class="image-item" src="./assets/images/package_3.jpg" alt="img-1" />
+
+            </ul>
+            <button id="next-slide" class="slide-button material-symbols-rounded">
+              chevron_right
+            </button>
+          </div>
+          <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+              <div class="scrollbar-thumb"></div>
             </div>
-        </div>
-        <div class="item testimonial-card">
-            <main class="test-card-body">
-                <div class="quote">
-                    <i class="fa fa-quote-left"></i>
-                    <h2>title content</h2>
-                </div>
-                <p>description_content</p>
-            </main>
-            <div class="profile">
-                <div class="profile-desc">
-                    <span>name content</span>
-                    <span>job title content</span>
-                </div>
-            </div>
-        </div>
-        <div class="item testimonial-card">
-            <main class="test-card-body">
-                <div class="quote">
-                    <i class="fa fa-quote-left"></i>
-                    <h2>title content</h2>
-                </div>
-                <p>description_content</p>
-            </main>
-            <div class="profile">
-                <div class="profile-desc">
-                    <span>name content</span>
-                    <span>job title content</span>
-                </div>
-            </div>
+          </div>
         </div>
 
-    </div>
-    <!-- Owl Carousel Slider Ends -->
+        </div>
+    </section>
 
-</div>
+    <script>
+        const initSlider = () => {
+    const imageList = document.querySelector(".slider-wrapper .image-list");
+    const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
+    const sliderScrollbar = document.querySelector(".container .slider-scrollbar");
+    const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+    
+    // Handle scrollbar thumb drag
+    scrollbarThumb.addEventListener("mousedown", (e) => {
+        const startX = e.clientX;
+        const thumbPosition = scrollbarThumb.offsetLeft;
+        const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
+        
+        // Update thumb position on mouse move
+        const handleMouseMove = (e) => {
+            const deltaX = e.clientX - startX;
+            const newThumbPosition = thumbPosition + deltaX;
 
-<script>
-
-
-
-    $(document).ready(function () {
-
-        $.ajax({
-            type: 'get',
-            url: "crud-testimonialContent-list.php",
-            success: function (data) {
-                let response = JSON.parse(data);
-                for (let i = 0; i < response.length; i++) {
-                    let id = response[i].id;
-                    let title_content = response[i].title_content;
-                    let description_content = response[i].description_content;
-                    let name_content = response[i].name_content;
-                    let jobTitle_content = response[i].jobTitle_content;
-
-                    createBlogCard(id, title_content, description_content, name_content, jobTitle_content);
-                }
-
-            }
-        });
-
-        function createBlogCard(id, title_content, description_content, name_content, jobTitle_content) {
-
-            // Assuming variables title_content, description_content, name_content, and jobTitle_content are defined
-
-            // Create the main div with class "item testimonial-card"
-            var testimonialCard = $('<div class="item testimonial-card"></div>');
-
-            // Create the main section with class "test-card-body"
-            var testCardBody = $('<main class="test-card-body"></main>');
-
-            // Create the div with class "quote" and its contents
-            var quote = $('<div class="quote"><i class="fa fa-quote-left"></i><h2>' + title_content + '</h2></div>');
-
-            // Create the paragraph with description content
-            var description = $('<p>' + description_content + '</p>');
-
-            // Append the quote and description to the main section
-            testCardBody.append(quote, description);
-
-            // Create the profile div
-            var profile = $('<div class="profile"></div>');
-
-            // Create the div with class "profile-desc" and its contents
-            var profileDesc = $('<div class="profile-desc"><span>' + name_content + '</span><span>' + jobTitle_content + '</span></div>');
-
-            // Append the profile description to the profile div
-            profile.append(profileDesc);
-
-            // Append the main section and profile to the testimonial card
-            testimonialCard.append(testCardBody, profile);
-
-            // Append the testimonial card to a container element (assuming you have one with id "container")
-            $('#testimonial-content').append(testimonialCard);
+            // Ensure the scrollbar thumb stays within bounds
+            const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
+            const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
+            
+            scrollbarThumb.style.left = `${boundedPosition}px`;
+            imageList.scrollLeft = scrollPosition;
         }
+
+        // Remove event listeners on mouse up
+        const handleMouseUp = () => {
+            document.removeEventListener("mousemove", handleMouseMove);
+            document.removeEventListener("mouseup", handleMouseUp);
+        }
+
+        // Add event listeners for drag interaction
+        document.addEventListener("mousemove", handleMouseMove);
+        document.addEventListener("mouseup", handleMouseUp);
     });
-</script>
+
+    // Slide images according to the slide button clicks
+    slideButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const direction = button.id === "prev-slide" ? -1 : 1;
+            const scrollAmount = imageList.clientWidth * direction;
+            imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        });
+    });
+
+     // Show or hide slide buttons based on scroll position
+    const handleSlideButtons = () => {
+        slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "flex";
+        slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "flex";
+    }
+
+    // Update scrollbar thumb position based on image scroll
+    const updateScrollThumbPosition = () => {
+        const scrollPosition = imageList.scrollLeft;
+        const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
+        scrollbarThumb.style.left = `${thumbPosition}px`;
+    }
+
+    // Call these two functions when image list scrolls
+    imageList.addEventListener("scroll", () => {
+        updateScrollThumbPosition();
+        handleSlideButtons();
+    });
+}
+
+window.addEventListener("resize", initSlider);
+window.addEventListener("load", initSlider);
+    </script>

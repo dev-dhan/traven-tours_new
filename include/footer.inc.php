@@ -9,30 +9,28 @@
 
             <div class="footer-brand">
 
-                <!--<a href="#" class="logo">-->
-                <!--    <img src="./assets/images/talentusph_logo.png" width="162" height="50" alt="Logo">-->
-                <!--</a>-->
+            <p class="footer-list-title">See and Explore Travel and Tours</p>
+
 
                 <p class="footer-brand-text">
-                    Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
-                </p>
+                We always make sure you travel safe, fun and easy.                </p>
 
                 <div class="wrapper">
-                    <span class="span">Add:</span>
+                    <span class="span">Address:</span> <br>
 
-                    <address class="address">70-80 Upper St Norwich NR2</address>
+                    <br> <address class="address">Casabal #2, Greenview Subdivision, Lamot uno, Calauan, Laguna</address>
                 </div>
 
                 <div class="wrapper">
                     <span class="span">Call:</span>
 
-                    <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+                    <p class="footer-link">- 09511620007 / 09624278355</p>
                 </div>
 
                 <div class="wrapper">
                     <span class="span">Email:</span>
 
-                    <a href="mailto:info@eduweb.com" class="footer-link">gmails@gmail.com</a>
+                    <p class="footer-link">seeandexploretravelandtours@gmail.com</p>
                 </div>
 
             </div>
@@ -41,70 +39,58 @@
             <ul class="footer-list">
 
                 <li>
-                    <p class="footer-list-title">Online Platform</p>
+                    <p class="footer-list-title">Useful Links</p>
                 </li>
 
                 <li>
-                    <a href="#" class="footer-link">Links</a>
+                    <a href="#" class="footer-link" data-toggle="modal" data-target="#exampleModal">Terms and Condition</a>
                 </li>
 
                 <li>
-                    <a href="#" class="footer-link">Links</a>
+                    <a href="#" class="footer-link" data-toggle="modal" data-target="#exampleModal2">FAQS</a>
                 </li>
 
-                <li>
-                    <a href="#" class="footer-link">Links</a>
-                </li>
-
-                <li>
-                    <a href="#" class="footer-link">Links</a>
-                </li>
-
-                <li>
-                    <a href="#" class="footer-link">Links</a>
-                </li>
-
-                <li>
-                    <a href="#" class="footer-link">Links</a>
-                </li>
+                
 
             </ul>
 
             <ul class="footer-list">
 
                 <li>
-                    <p class="footer-list-title">Links</p>
+                    <p class="footer-list-title">About See and Explore</p>
                 </li>
 
                 <li>
-                    <a href="#" class="footer-link">Links</a>
+                    <a href="#" class="footer-link">Home</a>
                 </li>
 
 
 
                 <li>
-                    <a href="#" class="footer-link">Links</a>
+                    <a href="about-us.php" class="footer-link">About Us</a>
                 </li>
 
                 <li>
-                    <a href="#" class="footer-link">Links</a>
+                    <a href="jobpostpage.php" class="footer-link">Latest Promos</a>
                 </li>
 
                 <li>
-                    <a href="#" class="footer-link">Links</a>
+                    <a href="travelPackages.php" class="footer-link">Travel Packages</a>
                 </li>
 
                 <li>
-                    <a href="#" class="footer-link">Links</a>
+                    <a href="contact-us.php" class="footer-link">Contact Us</a>
                 </li>
+
+              
 
             </ul>
 
             <div class="footer-list">
 
-                <p class="footer-list-title">Contacts</p>
+                <p class="footer-list-title">Reach Us!</p>
 
-                <p class="footer-list-text">
+                <!-- <p class="footer-list-text">
                     Enter your email address to register to our newsletter subscription
                 </p>
 
@@ -116,7 +102,7 @@
 
                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                     </button>
-                </form>
+                </form> -->
 
                 <ul class="social-list">
 

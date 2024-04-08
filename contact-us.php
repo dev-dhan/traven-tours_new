@@ -262,7 +262,7 @@ include("include/head.inc.php");
                 </h3>
 
                 <p class="card-text">
-                  email@talentus.com
+                seeandexploretravelandtours@gmail.com
                 </p>
 
                 <!-- <span class="card-badge">7 Courses</span> -->
@@ -282,8 +282,7 @@ include("include/head.inc.php");
                 </h3>
 
                 <p class="card-text">
-                  Rockwell Center, 5/F Phinma Plaza, 39 Plaza Dr, Makati, 1200 Metro Manila
-                </p>
+                Casabal #2, Greenview Subdivision, Lamot uno, Calauan, Laguna                </p>
 
                 <!-- <span class="card-badge">7 Courses</span> -->
 
@@ -322,8 +321,7 @@ include("include/head.inc.php");
                 </h3>
 
                 <p class="card-text">
-                  (09) 123-123456
-                </p>
+                09511620007 / 09624278355                </p>
 
                 <!-- <span class="card-badge">7 Courses</span> -->
 
@@ -337,8 +335,7 @@ include("include/head.inc.php");
 
       <section class="map">
         <div class="container-xl">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61788.41571300793!2d120.98327468123257!3d14.554799296913986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90264a0ed01%3A0x2b066ed57830cace!2sMakati%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1700838307885!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.8427952292463!2d121.31455349999999!3d14.1453382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5c295c3c1fd1%3A0x4740c44ae7fac5cb!2s4012%20Calauan%20-%20San%20Pablo%20Hwy%2C%20Calauan%2C%20Laguna!5e0!3m2!1sen!2sph!4v1712236547014!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
 
       </section>
 
