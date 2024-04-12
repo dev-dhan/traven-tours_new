@@ -60,7 +60,7 @@
                     let jobDescription = response[i].job_description;
                     let jobType = response[i].job_type;
                     let jobQualification = response[i].qualification;
-                    console.log(jobQualification);
+                    let promoDuration = response[i].qualification;
                     createBlogCard(id, jobImage, jobDateCreated, jobRole, jobDescription, jobType, jobQualification);
                 }
 
@@ -128,8 +128,14 @@
             // Create ul element with class 'card-meta-list'
             var cardMetaList = $("<ul>").addClass("card-meta-list");
 
+            var promoDuration = $(`<p class="location"> <i class="fa-solid fa-clock"></i><span class="d-inline"
+                            id="jobPost_jobType">${jobType}</span></p>
+                    <p class="job-type"></p>`);
+
             // Create li element with class 'card-meta-item'
-            var cardMetaItem = $("<li>").addClass("card-meta-item");
+            // var cardMetaItem = $("<li>").addClass("card-meta-item");
+
+
 
             // Create ion-icon element for calendar
             var calendarIcon = $("<ion-icon>").attr("name", "calendar-outline").attr("aria-hidden", "true");
@@ -138,10 +144,10 @@
             var dateSpan = $("<span>").addClass("span").text(jobDateCreated);
 
             // Append calendar icon and date span to card-meta-item
-            cardMetaItem.append(calendarIcon, dateSpan);
+            // cardMetaItem.append(calendarIcon, dateSpan);
 
             // Append card-meta-item to card-meta-list
-            cardMetaList.append(cardMetaItem);
+            cardMetaList.append(promoDuration);
 
             // Append card-meta-list to card-content
             cardContentDiv.append(cardMetaList);

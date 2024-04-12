@@ -29,9 +29,9 @@
                         <img src="assets/images/about-banner.jpg" class="w-100" alt="Tour Package Picture"
                             id="jobPost_jobImage">
                     </div>
-                    <p class="location"> <i class="fa-solid fa-clock"></i><span class="d-inline"
+                    <!-- <p class="location"> <i class="fa-solid fa-clock"></i><span class="d-inline"
                             id="jobPost_jobType"></span></p>
-                    <p class="job-type"></p>
+                    <p class="job-type"></p> -->
                     <p class="date-created"><i class="fa-regular fa-calendar"></i><span class="d-inline"
                             id="jobPost_jobDateCreated"></span></p>
                     <!-- <p class="salary"><i class="fa-solid fa-hand-holding-dollar"></i>$100,000</p> -->
