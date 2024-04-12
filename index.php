@@ -166,7 +166,7 @@ include ("include/head.inc.php");
 
       <figure class="hero-banner">
             <div class="img-holder one" style="--width: 100%; --height: 100%;">
-                <img src="./assets/images/question.png" width="100%" height="100%" alt="hero banner"
+                <img src="./assets/images/new-contact-us.png" width="100%" height="100%" alt="hero banner"
                     class="img-cover" id="main_image">
             </div>
         </figure>
